@@ -19,6 +19,11 @@
             if-layers = <LWR RSE>;
             then-layer = <ADJ>;
         };
+
+        Adj2 {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
     };
 
     keymap {
